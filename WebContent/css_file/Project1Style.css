@@ -1,4 +1,6 @@
-
+img{
+	width:40px;
+}
 .menu ul {
     list-style-type: none;
     margin: 0;
@@ -81,8 +83,7 @@ th{
 .image_silder img:nth-child(2){animation-delay:10s;}
 .image_silder img:nth-child(1){animation-delay:15s;}
 
-footer { 
-    float:down;
+.footer_container { 
     color: white;
     text-align: center;
     background:#4CAF50;
@@ -90,7 +91,6 @@ footer {
 .footer_container img{
 	width:25px;
 	height:25px;
-	
 }
 
 	

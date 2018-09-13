@@ -2,28 +2,37 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>GAHikes</title>
+<title>Georgia Hikes</title>
 <link rel="stylesheet" type="text/css" href="../css_file/Project1Style.css" title="style" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
 </head>
 <body>
 <div class="main_body">
-	<div class="menu">
-		<ul>
-			<li><a class="active" href="">Home</a></li>
-			<li><a href="">Contact us</a></li>
-			<li><img src="../image/searchIcon.png" alt="Search Icon"/></li>
-		</ul>
-	</div>	
+		<div class="navbar">
+				<ul>
+					<li><a class="active" href="../html_file/index.html">Home</a></li>
+					<li><a href="contact" href="#">Contact</a></li>
+					<li class="searchbar">
+						<div class="search-container">
+							<form action="/action_page.php">
+								<input type="text" placeholder="Search.." name="search">
+								<button type="submit"><i class="fa fa-search"></i></button>
+							</form>
+						</div>
+					</li>
+				</ul>
+			</div>	
 	
 	<div class="map_container">
-		<h1>Freedom Park (Stone Mountain) Trail</h1>
+		<img class="freedomlogo" src="../image/freedomlogo.jpg">
 		<img class="blmap" src="../image/smMap.gif" alt="map"/>
 	</div>
 	
 	<div>		
 	<table>
 		<tr>
-			<th>Rating: <img src="../image/start3.png" alt="star"/></th>
+			<th>Rating: <img src="../image/3stars.jpg" alt="star"/></th>
 			<th>Difficulty: Easy</th>
 			<th>Length: 7.3 Miles</th>
 		</tr>
@@ -66,13 +75,14 @@
 </div>
 
 
- <table class="footer_container">
-  		<tr>
-  			<th>Contact us: </th>
-  			<th><img src="../image/facebookIcon.png" alt="facebook icon"/></th>
-  			<th><img src="../image/linkedinIcon.png" alt="facebook icon"/></th>
-  		</tr>
-  </table>
+<div class="footer">
+        <ul id="icon-list">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+</div>    
+
 
 </body>
 </html>
